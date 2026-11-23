@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Wyszukiwarka państw</h1>
+    <p class="subtitle">REST Countries API v5</p>
+
+    <form id="search-form">
+      <label for="country">Nazwa państwa</label>
+      <div class="row">
+        <input
+          id="country"
+          name="country"
+          type="search"
+          placeholder="np. Poland"
+          required
+        />
+        <button type="submit">Szukaj</button>
+      </div>
+    </form>
+    <div id="res-table"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
